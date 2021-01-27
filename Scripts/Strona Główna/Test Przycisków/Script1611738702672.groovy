@@ -17,64 +17,49 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.aptekarska.pl/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si'))
 
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wicej o nas'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/o-nas/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie aktualnoci'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/aktualnosci/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie artykuy'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/artykuly/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak odzyska kontrol nad swoim czasem w _1cb63d_1'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Jak odzyska kontrol nad swoim czasem w_66149d/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak zwikszy przychody w aptece'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Jak zwikszy przychody w aptece - Aptek_bf68d0/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Maa zmiana, ktra daje due efekty w pole_91eb46'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/')
-
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Maa zmiana, ktra daje due efekty w pol_a2020f/span_Strona gwna'))
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_ofert'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/oferta/')
+
 
 WebUI.closeBrowser()
 
