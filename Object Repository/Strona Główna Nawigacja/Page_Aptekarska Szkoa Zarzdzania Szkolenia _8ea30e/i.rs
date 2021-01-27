@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i</name>
+   <tag></tag>
+   <elementGuidId>3732e3aa-d411-4fa5-86a5-ae57226a29f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.rollover.this-ready.layzr-bg-transparent > i</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ult-carousel-29104472736011391547e96']/div/div/div/div[2]/div/div/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ult-carousel-29104472736011391547e96&quot;)/div[@class=&quot;ult-carousel-4085923536011391547e70 slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;ult-item-wrap slick-slide slick-current slick-active&quot;]/div[@class=&quot;shortcode-single-image-wrap shortcode-single-image-5f82461867c9bb479336a9f67c3249f5 alignnone enable-bg-rollover dt-icon-bg-off&quot;]/div[@class=&quot;shortcode-single-image&quot;]/div[@class=&quot;fancy-media-wrap&quot;]/a[@class=&quot;rollover this-ready layzr-bg-transparent&quot;]/i[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ult-carousel-29104472736011391547e96']/div/div/div/div[2]/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

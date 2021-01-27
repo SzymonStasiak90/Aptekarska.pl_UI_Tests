@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Strona Główna,Firefox 84.0,,,2021-01-27 14:18:33,2021-01-27 14:21:24,"2m - 50,811s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Nawigacji,Firefox 84.0,,,2021-01-27 14:18:36,2021-01-27 14:19:26,"49,764s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-27 14:18:37,2021-01-27 14:18:49,"11,730s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-27 14:18:49,2021-01-27 14:18:55,"6,491s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-27 14:18:55,2021-01-27 14:19:01,"5,457s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Firefox 84.0,,,2021-01-27 14:19:01,2021-01-27 14:19:04,"3,588s",PASSED
+"verifyElementText(findTestObject(""Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/h1_Aktualnoci""), ""Aktualności"")",Firefox 84.0,,,2021-01-27 14:19:04,2021-01-27 14:19:06,"1,642s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Firefox 84.0,,,2021-01-27 14:19:06,2021-01-27 14:19:10,"4,038s",PASSED
+"verifyElementText(findTestObject(""Spy - Nagłówki Podstron/Page_Artykuy - Aptekarska Szkoa Zarzdzania/h1_Artykuy""), ""Artykuły"")",Firefox 84.0,,,2021-01-27 14:19:10,2021-01-27 14:19:12,"1,410s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Firefox 84.0,,,2021-01-27 14:19:12,2021-01-27 14:19:15,"3,647s",PASSED
+"verifyElementText(findTestObject(""Spy - Nagłówki Podstron/Page_O nas - Aptekarska Szkoa Zarzdzania/h1_O nas""), ""O nas"")",Firefox 84.0,,,2021-01-27 14:19:15,2021-01-27 14:19:17,"1,851s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt""))",Firefox 84.0,,,2021-01-27 14:19:17,2021-01-27 14:19:20,"3,301s",PASSED
+"verifyElementText(findTestObject(""Spy - Nagłówki Podstron/Page_Kontakt - Aptekarska Szkoa Zarzdzania/h1_Kontakt""), ""Kontakt"")",Firefox 84.0,,,2021-01-27 14:19:20,2021-01-27 14:19:21,"0,561s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Firefox 84.0,,,2021-01-27 14:19:21,2021-01-27 14:19:24,"2,824s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:19:24,2021-01-27 14:19:24,"0,055s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-27 14:19:24,2021-01-27 14:19:24,"0,103s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-27 14:19:24,2021-01-27 14:19:26,"2,014s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Przewijania Strony,Firefox 84.0,,,2021-01-27 14:19:26,2021-01-27 14:19:49,"22,670s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-27 14:19:27,2021-01-27 14:19:33,"6,300s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-27 14:19:33,2021-01-27 14:19:40,"6,704s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Firefox 84.0,,,2021-01-27 14:19:40,2021-01-27 14:19:45,"5,257s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Firefox 84.0,,,2021-01-27 14:19:45,2021-01-27 14:19:45,"0,674s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Firefox 84.0,,,2021-01-27 14:19:45,2021-01-27 14:19:47,"1,349s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-27 14:19:47,2021-01-27 14:19:49,"1,843s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Przycisków,Firefox 84.0,,,2021-01-27 14:19:49,2021-01-27 14:21:24,"1m - 35,514s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-27 14:19:49,2021-01-27 14:19:56,"6,268s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-27 14:19:56,2021-01-27 14:20:01,"5,613s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-27 14:20:01,2021-01-27 14:20:07,"6,224s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wicej o nas""))",Firefox 84.0,,,2021-01-27 14:20:07,2021-01-27 14:20:11,"4,032s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:20:11,2021-01-27 14:20:11,"0,043s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-27 14:20:11,2021-01-27 14:20:11,"0,048s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:20:11,2021-01-27 14:20:18,"6,639s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie aktualnoci""))",Firefox 84.0,,,2021-01-27 14:20:18,2021-01-27 14:20:27,"8,827s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:20:27,2021-01-27 14:20:27,"0,199s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-27 14:20:27,2021-01-27 14:20:27,"0,041s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:20:27,2021-01-27 14:20:31,"4,121s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie artykuy""))",Firefox 84.0,,,2021-01-27 14:20:31,2021-01-27 14:20:40,"8,263s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:20:40,2021-01-27 14:20:40,"0,037s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Firefox 84.0,,,2021-01-27 14:20:40,2021-01-27 14:20:40,"0,153s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:20:40,2021-01-27 14:20:44,"4,517s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak odzyska kontrol nad swoim czasem w _1cb63d_1""))",Firefox 84.0,,,2021-01-27 14:20:44,2021-01-27 14:20:48,"3,970s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:20:48,2021-01-27 14:20:48,"0,035s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Firefox 84.0,,,2021-01-27 14:20:48,2021-01-27 14:20:48,"0,082s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Jak odzyska kontrol nad swoim czasem w_66149d/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:20:48,2021-01-27 14:20:52,"3,562s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak zwikszy przychody w aptece""))",Firefox 84.0,,,2021-01-27 14:20:52,2021-01-27 14:21:01,"8,742s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:21:01,2021-01-27 14:21:01,"0,037s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Firefox 84.0,,,2021-01-27 14:21:01,2021-01-27 14:21:01,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Jak zwikszy przychody w aptece - Aptek_bf68d0/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:21:01,2021-01-27 14:21:04,"3,646s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Maa zmiana, ktra daje due efekty w pole_91eb46""))",Firefox 84.0,,,2021-01-27 14:21:04,2021-01-27 14:21:11,"6,985s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:21:11,2021-01-27 14:21:11,"0,038s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Firefox 84.0,,,2021-01-27 14:21:11,2021-01-27 14:21:11,"0,086s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Maa zmiana, ktra daje due efekty w pol_a2020f/span_Strona gwna""))",Firefox 84.0,,,2021-01-27 14:21:11,2021-01-27 14:21:15,"3,261s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_ofert""))",Firefox 84.0,,,2021-01-27 14:21:15,2021-01-27 14:21:22,"7,551s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-27 14:21:22,2021-01-27 14:21:22,"0,012s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-27 14:21:22,2021-01-27 14:21:22,"0,018s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-27 14:21:22,2021-01-27 14:21:24,"1,848s",PASSED

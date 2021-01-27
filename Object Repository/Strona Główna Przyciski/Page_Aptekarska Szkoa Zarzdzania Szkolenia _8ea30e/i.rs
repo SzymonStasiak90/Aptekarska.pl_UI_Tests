@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i</name>
+   <tag></tag>
+   <elementGuidId>fbe1ee7c-41b6-4a82-a066-2239bae16cd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.shortcode-single-image-wrap.shortcode-single-image-c8a1f460ee0091cbfe144acebff7e189.alignnone.enable-bg-rollover.dt-icon-bg-off > div.shortcode-single-image > div.fancy-media-wrap > a.rollover.this-ready > i</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ult-carousel-354508141060115c0ad7584']/div/div/div/div[2]/div/div/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ult-carousel-354508141060115c0ad7584&quot;)/div[@class=&quot;ult-carousel-189592378360115c0ad7560 slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;ult-item-wrap slick-slide slick-current slick-active animated no-animation&quot;]/div[@class=&quot;shortcode-single-image-wrap shortcode-single-image-c8a1f460ee0091cbfe144acebff7e189 alignnone enable-bg-rollover dt-icon-bg-off&quot;]/div[@class=&quot;shortcode-single-image&quot;]/div[@class=&quot;fancy-media-wrap&quot;]/a[@class=&quot;rollover this-ready&quot;]/i[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ult-carousel-354508141060115c0ad7584']/div/div/div/div[2]/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>
