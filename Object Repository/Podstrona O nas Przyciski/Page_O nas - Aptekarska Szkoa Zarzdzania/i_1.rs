@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_1</name>
+   <tag></tag>
+   <elementGuidId>391f330b-e39f-4a12-a26d-239be44e49ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[2]/div/div/div/div[3]/div[2]/div/div/div/div/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.shortcode-single-image-wrap.shortcode-single-image-146e94f4c47dc036199e87505c6cf134.alignnone.vc_custom_1609365216283.enable-bg-rollover.dt-icon-bg-off > div.shortcode-single-image > div.fancy-media-wrap > a.rollover.this-ready > i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;vc_row wpb_row vc_row-fluid vc_custom_1606950234263&quot;]/div[@class=&quot;wpb_column vc_column_container vc_col-sm-12&quot;]/div[@class=&quot;vc_column-inner&quot;]/div[@class=&quot;wpb_wrapper&quot;]/div[@class=&quot;vc_row wpb_row vc_inner vc_row-fluid&quot;]/div[@class=&quot;wpb_column vc_column_container vc_col-sm-3&quot;]/div[@class=&quot;vc_column-inner vc_custom_1610372535725&quot;]/div[@class=&quot;wpb_wrapper&quot;]/div[@class=&quot;shortcode-single-image-wrap shortcode-single-image-146e94f4c47dc036199e87505c6cf134 alignnone vc_custom_1609365216283 enable-bg-rollover dt-icon-bg-off&quot;]/div[@class=&quot;shortcode-single-image&quot;]/div[@class=&quot;fancy-media-wrap&quot;]/a[@class=&quot;rollover this-ready&quot;]/i[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[2]/div/div/div/div[3]/div[2]/div/div/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

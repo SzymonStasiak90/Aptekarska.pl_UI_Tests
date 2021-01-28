@@ -14,47 +14,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://www.aptekarska.pl/aktualnosci/')
-
+WebUI.navigateToUrl('https://www.aptekarska.pl/o-nas/')
 WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si'))
 
 
+WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci'))
+WebUI.getUrl()
+WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/aktualnosci/')
+
+
+WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy'))
+WebUI.getUrl()
+WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/artykuly/')
 
 
 WebUI.click(findTestObject('SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/')
 
-WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy'))
-
-WebUI.getUrl()
-
-WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/artykuly/')
-
-WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas'))
-
-WebUI.getUrl()
-
-WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/o-nas/')
 
 WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/kontakt/')
 
+
 WebUI.click(findTestObject('Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta'))
-
 WebUI.getUrl()
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.aptekarska.pl/oferta/')
+
 
 WebUI.closeBrowser()
 
