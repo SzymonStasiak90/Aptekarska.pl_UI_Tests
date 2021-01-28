@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Strona Główna,Edge Chromium 88,,,2021-01-28 17:24:07,2021-01-28 17:25:58,"1m - 51,542s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Nawigacji,Edge Chromium 88,,,2021-01-28 17:24:09,2021-01-28 17:24:42,"32,760s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-28 17:24:10,2021-01-28 17:24:13,"3,602s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-28 17:24:13,2021-01-28 17:24:13,"0,172s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-28 17:24:13,2021-01-28 17:24:19,"5,703s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-28 17:24:19,2021-01-28 17:24:20,"0,557s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Edge Chromium 88,,,2021-01-28 17:24:20,2021-01-28 17:24:24,"3,888s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:24:24,2021-01-28 17:24:24,"0,127s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Edge Chromium 88,,,2021-01-28 17:24:24,2021-01-28 17:24:24,"0,076s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Edge Chromium 88,,,2021-01-28 17:24:24,2021-01-28 17:24:27,"2,801s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:24:27,2021-01-28 17:24:27,"0,050s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Edge Chromium 88,,,2021-01-28 17:24:27,2021-01-28 17:24:27,"0,238s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Edge Chromium 88,,,2021-01-28 17:24:27,2021-01-28 17:24:31,"3,900s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:24:31,2021-01-28 17:24:31,"0,080s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-28 17:24:31,2021-01-28 17:24:31,"0,056s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt""))",Edge Chromium 88,,,2021-01-28 17:24:31,2021-01-28 17:24:35,"3,577s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:24:35,2021-01-28 17:24:35,"0,026s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/kontakt/"")",Edge Chromium 88,,,2021-01-28 17:24:35,2021-01-28 17:24:35,"0,029s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Edge Chromium 88,,,2021-01-28 17:24:35,2021-01-28 17:24:41,"6,059s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:24:41,2021-01-28 17:24:41,"0,018s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Edge Chromium 88,,,2021-01-28 17:24:41,2021-01-28 17:24:41,"0,022s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-28 17:24:41,2021-01-28 17:24:42,"0,926s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Przewijania Strony,Edge Chromium 88,,,2021-01-28 17:24:42,2021-01-28 17:24:50,"8,365s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-28 17:24:42,2021-01-28 17:24:43,"1,428s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-28 17:24:43,2021-01-28 17:24:48,"4,903s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Edge Chromium 88,,,2021-01-28 17:24:48,2021-01-28 17:24:49,"0,450s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Edge Chromium 88,,,2021-01-28 17:24:49,2021-01-28 17:24:49,"0,202s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Edge Chromium 88,,,2021-01-28 17:24:49,2021-01-28 17:24:49,"0,254s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-28 17:24:49,2021-01-28 17:24:50,"0,747s",PASSED
+,,,,,,,
+Test Cases/Strona Główna/Test Przycisków,Edge Chromium 88,,,2021-01-28 17:24:50,2021-01-28 17:25:58,"1m - 8,430s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-28 17:24:50,2021-01-28 17:24:52,"1,453s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-28 17:24:52,2021-01-28 17:24:52,"0,163s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-28 17:24:52,2021-01-28 17:24:58,"6,242s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-28 17:24:58,2021-01-28 17:24:59,"0,275s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wicej o nas""))",Edge Chromium 88,,,2021-01-28 17:24:59,2021-01-28 17:25:03,"4,230s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:03,2021-01-28 17:25:03,"0,024s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-28 17:25:03,2021-01-28 17:25:03,"0,021s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:03,2021-01-28 17:25:06,"3,380s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie aktualnoci""))",Edge Chromium 88,,,2021-01-28 17:25:06,2021-01-28 17:25:21,"15,156s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:21,2021-01-28 17:25:21,"0,021s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Edge Chromium 88,,,2021-01-28 17:25:21,2021-01-28 17:25:21,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:21,2021-01-28 17:25:25,"3,556s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Wszystkie artykuy""))",Edge Chromium 88,,,2021-01-28 17:25:25,2021-01-28 17:25:29,"4,344s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:29,2021-01-28 17:25:29,"0,029s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Edge Chromium 88,,,2021-01-28 17:25:29,2021-01-28 17:25:29,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:29,2021-01-28 17:25:33,"3,590s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak odzyska kontrol nad swoim czasem w _1cb63d_1""))",Edge Chromium 88,,,2021-01-28 17:25:33,2021-01-28 17:25:36,"3,314s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:36,2021-01-28 17:25:36,"0,017s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Edge Chromium 88,,,2021-01-28 17:25:36,2021-01-28 17:25:36,"0,015s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Jak odzyska kontrol nad swoim czasem w_66149d/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:36,2021-01-28 17:25:40,"3,243s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Jak zwikszy przychody w aptece""))",Edge Chromium 88,,,2021-01-28 17:25:40,2021-01-28 17:25:42,"2,690s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:42,2021-01-28 17:25:42,"0,026s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Edge Chromium 88,,,2021-01-28 17:25:42,2021-01-28 17:25:42,"0,020s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Jak zwikszy przychody w aptece - Aptek_bf68d0/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:42,2021-01-28 17:25:45,"3,092s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/div_Maa zmiana, ktra daje due efekty w pole_91eb46""))",Edge Chromium 88,,,2021-01-28 17:25:45,2021-01-28 17:25:48,"2,738s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:48,2021-01-28 17:25:48,"0,038s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Edge Chromium 88,,,2021-01-28 17:25:48,2021-01-28 17:25:48,"0,022s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Maa zmiana, ktra daje due efekty w pol_a2020f/span_Strona gwna""))",Edge Chromium 88,,,2021-01-28 17:25:48,2021-01-28 17:25:52,"3,471s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przyciski/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_ofert""))",Edge Chromium 88,,,2021-01-28 17:25:52,2021-01-28 17:25:57,"5,824s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-28 17:25:57,2021-01-28 17:25:57,"0,017s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Edge Chromium 88,,,2021-01-28 17:25:57,2021-01-28 17:25:58,"0,015s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-28 17:25:58,2021-01-28 17:25:58,"0,898s",PASSED

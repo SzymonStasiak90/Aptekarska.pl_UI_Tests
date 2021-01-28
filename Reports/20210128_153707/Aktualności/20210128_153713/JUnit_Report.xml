@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aktualności" time="128.252" tests="4" failures="1" skips="0" errors="0">
+   <testsuite name="Aktualności" tests="4" failures="1" errors="0" time="128.252" skips="0" timestamp="2021-01-28 15:37:38" hostname="Staz Intersiec - DESKTOP-HO0QCN7" id="Test Suites/Aktualności">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Staz Intersiec\\Documents\\Aptekarska.pl_UI_Tests\\Reports\\20210128_153707\\Aktualno\u015Bci\\20210128_153713"/>
+         <property name="logFiles" value="C:\\Users\\Staz Intersiec\\Documents\\Aptekarska.pl_UI_Tests\\Reports\\20210128_153707\\Aktualno\u015Bci\\20210128_153713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Staz Intersiec - DESKTOP-HO0QCN7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.50.1"/>
+         <property name="sessionId" value="60412e8dc21618150b5b8a1da4b29209"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Aktualności/Test Nawigacji - Podstrona Aktualności" time="33.518" classname="Test Cases/Aktualności/Test Nawigacji - Podstrona Aktualności" status="PASSED">
+         <system-out><![CDATA[2021-01-28 15:37:40 - [TEST_CASE][PASSED] - Test Cases/Aktualności/Test Nawigacji - Podstrona Aktualności: Test Cases/Aktualności/Test Nawigacji - Podstrona Aktualności
+
+2021-01-28 15:37:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:37:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:37:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:37:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:37:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-28 15:37:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 15:37:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.aptekarska.pl/aktualnosci/"): Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:37:52 - [MESSAGE][PASSED] - Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si")): Object: 'Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:37:53 - [TEST_STEP][PASSED] - click(findTestObject("SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me")): Object: 'Object Repository/SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me' is clicked on
+
+2021-01-28 15:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me' is clicked on
+
+2021-01-28 15:37:57 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/'
+
+2021-01-28 15:37:57 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/'
+
+2021-01-28 15:37:57 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/"): Actual object 'https://www.aptekarska.pl/' and expected object 'https://www.aptekarska.pl/' are equal
+
+2021-01-28 15:37:57 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/'
+
+2021-01-28 15:37:58 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/' and expected object 'https://www.aptekarska.pl/' are equal
+
+2021-01-28 15:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy")): Object: 'Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy' is clicked on
+
+2021-01-28 15:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy' is clicked on
+
+2021-01-28 15:38:04 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/artykuly/'
+
+2021-01-28 15:38:04 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/artykuly/'
+
+2021-01-28 15:38:04 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/artykuly/"): Actual object 'https://www.aptekarska.pl/artykuly/' and expected object 'https://www.aptekarska.pl/artykuly/' are equal
+
+2021-01-28 15:38:04 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/artykuly/'
+
+2021-01-28 15:38:04 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/artykuly/' and expected object 'https://www.aptekarska.pl/artykuly/' are equal
+
+2021-01-28 15:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas")): Object: 'Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas' is clicked on
+
+2021-01-28 15:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas' is clicked on
+
+2021-01-28 15:38:07 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/o-nas/'
+
+2021-01-28 15:38:07 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/o-nas/'
+
+2021-01-28 15:38:07 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/o-nas/"): Actual object 'https://www.aptekarska.pl/o-nas/' and expected object 'https://www.aptekarska.pl/o-nas/' are equal
+
+2021-01-28 15:38:07 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/o-nas/'
+
+2021-01-28 15:38:07 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/o-nas/' and expected object 'https://www.aptekarska.pl/o-nas/' are equal
+
+2021-01-28 15:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt")): Object: 'Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt' is clicked on
+
+2021-01-28 15:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt' is clicked on
+
+2021-01-28 15:38:10 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/kontakt/'
+
+2021-01-28 15:38:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/kontakt/'
+
+2021-01-28 15:38:10 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/kontakt/"): Actual object 'https://www.aptekarska.pl/kontakt/' and expected object 'https://www.aptekarska.pl/kontakt/' are equal
+
+2021-01-28 15:38:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/kontakt/'
+
+2021-01-28 15:38:10 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/kontakt/' and expected object 'https://www.aptekarska.pl/kontakt/' are equal
+
+2021-01-28 15:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta")): Object: 'Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta' is clicked on
+
+2021-01-28 15:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta' is clicked on
+
+2021-01-28 15:38:12 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/oferta/'
+
+2021-01-28 15:38:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/oferta/'
+
+2021-01-28 15:38:13 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/oferta/"): Actual object 'https://www.aptekarska.pl/oferta/' and expected object 'https://www.aptekarska.pl/oferta/' are equal
+
+2021-01-28 15:38:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/oferta/'
+
+2021-01-28 15:38:13 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/oferta/' and expected object 'https://www.aptekarska.pl/oferta/' are equal
+
+2021-01-28 15:38:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-28 15:38:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Aktualności/Test Przewijania Strony - Podstrona Aktualności" time="10.379" classname="Test Cases/Aktualności/Test Przewijania Strony - Podstrona Aktualności" status="PASSED">
+         <system-out><![CDATA[2021-01-28 15:38:14 - [TEST_CASE][PASSED] - Test Cases/Aktualności/Test Przewijania Strony - Podstrona Aktualności: Test Cases/Aktualności/Test Przewijania Strony - Podstrona Aktualności
+
+2021-01-28 15:38:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:38:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:38:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:38:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:38:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.aptekarska.pl/aktualnosci/"): Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:21 - [MESSAGE][PASSED] - Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko")): Object: 'Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko' is clicked on
+
+2021-01-28 15:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko' is clicked on
+
+2021-01-28 15:38:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/div_Czytaj Wicej_wf-container-footer"), 0): Scroll to object 'Object Repository/Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/div_Czytaj Wicej_wf-container-footer' successfully
+
+2021-01-28 15:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-28 15:38:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/div_Czytaj Wicej_wf-container-footer' successfully
+
+2021-01-28 15:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Do gry")): Object: 'Object Repository/Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Do gry' is clicked on
+
+2021-01-28 15:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Do gry' is clicked on
+
+2021-01-28 15:38:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-28 15:38:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link" time="21.065" classname="Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)
+"/>
+         <system-out><![CDATA[2021-01-28 15:38:24 - [TEST_CASE][FAILED] - Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link: Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)
+
+
+2021-01-28 15:38:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:38:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:38:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:38:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-28 15:38:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 15:38:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.aptekarska.pl/aktualnosci/"): Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:34 - [MESSAGE][PASSED] - Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb' is clicked on
+
+2021-01-28 15:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb' is clicked on
+
+2021-01-28 15:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1' is clicked on
+
+2021-01-28 15:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1' is clicked on
+
+2021-01-28 15:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:38:40 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:38:40 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:38:40 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"): Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:38:40 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:38:40 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/span_Aktualnoci")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/span_Aktualnoci' is clicked on
+
+2021-01-28 15:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/span_Aktualnoci' is clicked on
+
+2021-01-28 15:38:45 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/category/aktualnosci/'
+
+2021-01-28 15:38:45 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/category/aktualnosci/'
+
+2021-01-28 15:38:45 - [TEST_STEP][FAILED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Unable to verify equal between actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)
+)
+
+2021-01-28 15:38:45 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/category/aktualnosci/'
+
+2021-01-28 15:38:45 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-01-28 15:38:24 - [TEST_CASE][FAILED] - Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link: Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności Back with browser" time="60.166" classname="Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności Back with browser" status="PASSED">
+         <system-out><![CDATA[2021-01-28 15:38:45 - [TEST_CASE][PASSED] - Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności Back with browser: Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności Back with browser
+
+2021-01-28 15:38:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:38:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-28 15:38:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:38:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:38:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:38:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-28 15:38:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 15:38:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.aptekarska.pl/aktualnosci/"): Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:56 - [MESSAGE][PASSED] - Navigate to 'https://www.aptekarska.pl/aktualnosci/' successfully
+
+2021-01-28 15:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si' is clicked on
+
+2021-01-28 15:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb' is clicked on
+
+2021-01-28 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb' is clicked on
+
+2021-01-28 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle' is clicked on
+
+2021-01-28 15:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1' is clicked on
+
+2021-01-28 15:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1' is clicked on
+
+2021-01-28 15:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:39:02 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:02 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:02 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"): Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:02 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:02 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:02 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:03 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:03 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:03 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:03 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:03 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:03 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. recept")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. recept' is clicked on
+
+2021-01-28 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. recept' is clicked on
+
+2021-01-28 15:39:05 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:05 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:05 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"): Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:05 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:05 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:05 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:06 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:06 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:06 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:06 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:06 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:06 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej' is clicked on
+
+2021-01-28 15:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej' is clicked on
+
+2021-01-28 15:39:09 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:09 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:09 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"): Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:09 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/'
+
+2021-01-28 15:39:09 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' and expected object 'https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/' are equal
+
+2021-01-28 15:39:09 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:10 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:10 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:10 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:10 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover' is clicked on
+
+2021-01-28 15:39:13 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:13 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"): Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:13 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:13 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:14 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:14 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:14 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:14 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:14 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:14 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Nowy Rok, Nowa Platforma Szkoleniowa, Now_103745")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Nowy Rok, Nowa Platforma Szkoleniowa, Now_103745' is clicked on
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Nowy Rok, Nowa Platforma Szkoleniowa, Now_103745' is clicked on
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"): Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:18 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1' is clicked on
+
+2021-01-28 15:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1' is clicked on
+
+2021-01-28 15:39:21 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:21 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:21 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"): Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:21 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/'
+
+2021-01-28 15:39:21 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' and expected object 'https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/' are equal
+
+2021-01-28 15:39:21 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:22 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:22 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:22 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:22 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:22 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:22 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1' is clicked on
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1' is clicked on
+
+2021-01-28 15:39:25 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:25 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"): Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:25 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:25 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:25 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:25 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:26 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:26 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. szczepie")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. szczepie' is clicked on
+
+2021-01-28 15:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. szczepie' is clicked on
+
+2021-01-28 15:39:28 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:28 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:28 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"): Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:28 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:28 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:28 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:29 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:29 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:29 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:29 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:29 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2' is clicked on
+
+2021-01-28 15:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2' is clicked on
+
+2021-01-28 15:39:31 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:31 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:31 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"): Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:31 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/'
+
+2021-01-28 15:39:31 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' and expected object 'https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/' are equal
+
+2021-01-28 15:39:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:32 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:32 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:32 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:32 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:32 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:32 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover layz_84d020")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover layz_84d020' is clicked on
+
+2021-01-28 15:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover layz_84d020' is clicked on
+
+2021-01-28 15:39:36 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:36 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:36 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"): Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:36 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:36 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:36 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:36 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:37 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:37 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:37 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:37 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_yczenia witeczne")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_yczenia witeczne' is clicked on
+
+2021-01-28 15:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_yczenia witeczne' is clicked on
+
+2021-01-28 15:39:40 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:40 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:40 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"): Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:40 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:40 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:40 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:40 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:41 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:41 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:41 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:41 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2_3")): Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2_3' is clicked on
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2_3' is clicked on
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"): Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/'
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' and expected object 'https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/' are equal
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://www.aptekarska.pl/aktualnosci/"): Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Current window's url is: 'https://www.aptekarska.pl/aktualnosci/'
+
+2021-01-28 15:39:44 - [MESSAGE][PASSED] - Actual object 'https://www.aptekarska.pl/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are equal
+
+2021-01-28 15:39:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-28 15:39:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-28 15:37:38 - [TEST_SUITE][FAILED] - Aktualności: Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-01-28 15:37:38 - [TEST_SUITE][FAILED] - Aktualności: Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://www.aptekarska.pl/category/aktualnosci/' and expected object 'https://www.aptekarska.pl/aktualnosci/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Test Przycisków - Podstrona Aktualności - Back with link.run(Test Przycisków - Podstrona Aktualności - Back with link:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611844633270.run(TempTestSuite1611844633270.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

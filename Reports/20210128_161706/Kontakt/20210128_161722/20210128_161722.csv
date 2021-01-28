@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kontakt,Chrome 88.0.4324.104,,,2021-01-28 16:18:34,2021-01-28 16:19:24,"49,914s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Nawigacji - Podstrony Kontakt,Chrome 88.0.4324.104,,,2021-01-28 16:18:35,2021-01-28 16:19:12,"36,968s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-28 16:18:37,2021-01-28 16:18:43,"5,593s",PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-28 16:18:43,2021-01-28 16:18:45,"2,202s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Chrome 88.0.4324.104,,,2021-01-28 16:18:45,2021-01-28 16:18:49,"4,212s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Chrome 88.0.4324.104,,,2021-01-28 16:18:49,2021-01-28 16:18:50,"0,794s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Chrome 88.0.4324.104,,,2021-01-28 16:18:50,2021-01-28 16:18:55,"4,748s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-28 16:18:55,2021-01-28 16:18:55,"0,076s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Chrome 88.0.4324.104,,,2021-01-28 16:18:55,2021-01-28 16:18:55,"0,061s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Chrome 88.0.4324.104,,,2021-01-28 16:18:55,2021-01-28 16:18:58,"3,190s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-28 16:18:58,2021-01-28 16:18:58,"0,059s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-28 16:18:58,2021-01-28 16:18:58,"0,101s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Chrome 88.0.4324.104,,,2021-01-28 16:18:58,2021-01-28 16:19:02,"3,945s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-28 16:19:02,2021-01-28 16:19:02,"0,042s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Chrome 88.0.4324.104,,,2021-01-28 16:19:02,2021-01-28 16:19:02,"0,024s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Chrome 88.0.4324.104,,,2021-01-28 16:19:02,2021-01-28 16:19:06,"4,043s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-28 16:19:06,2021-01-28 16:19:06,"0,029s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Chrome 88.0.4324.104,,,2021-01-28 16:19:06,2021-01-28 16:19:06,"0,019s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Chrome 88.0.4324.104,,,2021-01-28 16:19:06,2021-01-28 16:19:12,"5,422s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-28 16:19:12,2021-01-28 16:19:12,"0,018s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Chrome 88.0.4324.104,,,2021-01-28 16:19:12,2021-01-28 16:19:12,"0,016s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-28 16:19:12,2021-01-28 16:19:12,"0,737s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przewijania Strony - Podstrony Kontakt,Chrome 88.0.4324.104,,,2021-01-28 16:19:12,2021-01-28 16:19:23,"10,790s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-28 16:19:13,2021-01-28 16:19:16,"3,460s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Chrome 88.0.4324.104,,,2021-01-28 16:19:16,2021-01-28 16:19:20,"3,616s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Chrome 88.0.4324.104,,,2021-01-28 16:19:20,2021-01-28 16:19:21,"0,555s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Chrome 88.0.4324.104,,,2021-01-28 16:19:21,2021-01-28 16:19:22,"1,566s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Chrome 88.0.4324.104,,,2021-01-28 16:19:22,2021-01-28 16:19:23,"0,382s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-28 16:19:23,2021-01-28 16:19:23,"0,735s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przycisków - Podstrona Kontakt,Chrome 88.0.4324.104,,,2021-01-28 16:19:23,2021-01-28 16:19:24,"0,409s",PASSED
+return null,Chrome 88.0.4324.104,,,2021-01-28 16:19:24,2021-01-28 16:19:24,"0,000s",PASSED
