@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_1</name>
+   <tag></tag>
+   <elementGuidId>f364b824-7403-43f2-89ea-4cfcadc72d63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[3]/article/div/p/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>article.post.post-3638.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-aktualnosci.tag-webinar.category-69.bg-on.fullwidth-img.description-off > div.blog-media.wf-td > p > a.alignnone.rollover.this-ready > i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;wf-container loading-effect-fade-in iso-container bg-under-post description-under-image content-align-left dt-isotope cont-id-0 iso-item-ready&quot;]/div[@class=&quot;wf-cell iso-item shown&quot;]/article[@class=&quot;post post-3638 type-post status-publish format-standard has-post-thumbnail hentry category-aktualnosci tag-webinar category-69 bg-on fullwidth-img description-off&quot;]/div[@class=&quot;blog-media wf-td&quot;]/p[1]/a[@class=&quot;alignnone rollover this-ready&quot;]/i[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[3]/article/div/p/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/article/div/p/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>
