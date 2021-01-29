@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Formularz,Edge Chromium 88,,,2021-01-29 12:37:13,2021-01-29 12:37:26,"12,853s",PASSED
+,,,,,,,
+Test Cases/Formularz/Testy Formularz,Edge Chromium 88,,,2021-01-29 12:37:14,2021-01-29 12:37:26,"11,164s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 12:37:15,2021-01-29 12:37:19,"3,696s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Edge Chromium 88,,,2021-01-29 12:37:19,2021-01-29 12:37:21,"2,462s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 12:37:21,2021-01-29 12:37:22,"0,191s",PASSED
+"click(findTestObject(""Object Repository/Formularz/Page_Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 12:37:22,2021-01-29 12:37:22,"0,444s",PASSED
+"scrollToElement(findTestObject(""SPY - Newsletter/Page_Aptekarska Szkoa Zarzdzania/iframe__fm-fc-f-jquodjjgyu""), 0)",Edge Chromium 88,,,2021-01-29 12:37:22,2021-01-29 12:37:22,"0,281s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Edge Chromium 88,,,2021-01-29 12:37:22,2021-01-29 12:37:23,"0,708s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Edge Chromium 88,,,2021-01-29 12:37:23,2021-01-29 12:37:23,"0,316s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""), ""Szymon"")",Edge Chromium 88,,,2021-01-29 12:37:23,2021-01-29 12:37:24,"0,375s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Email (ktry regularnie odbierasz)_fre_eca03e""), ""SS@wp.pl"")",Edge Chromium 88,,,2021-01-29 12:37:24,2021-01-29 12:37:24,"0,413s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/label""))",Edge Chromium 88,,,2021-01-29 12:37:24,2021-01-29 12:37:25,"0,291s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/button_Zapisz mnie""))",Edge Chromium 88,,,2021-01-29 12:37:25,2021-01-29 12:37:25,"0,359s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 12:37:25,2021-01-29 12:37:26,"0,789s",PASSED
