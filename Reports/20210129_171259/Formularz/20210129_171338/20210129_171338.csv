@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Formularz,Chrome 88.0.4324.104,,,2021-01-29 17:24:32,2021-01-29 17:24:50,"17,626s",PASSED
+,,,,,,,
+Test Cases/Formularz/Testy Formularz,Chrome 88.0.4324.104,,,2021-01-29 17:24:34,2021-01-29 17:24:50,"15,825s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-29 17:24:35,2021-01-29 17:24:40,"4,858s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:40,2021-01-29 17:24:41,"1,648s",PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-29 17:24:41,2021-01-29 17:24:44,"2,216s",PASSED
+"click(findTestObject(""Object Repository/Formularz/Page_Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:44,2021-01-29 17:24:44,"0,818s",PASSED
+"scrollToElement(findTestObject(""SPY - Newsletter/Page_Aptekarska Szkoa Zarzdzania/iframe__fm-fc-f-jquodjjgyu""), 0)",Chrome 88.0.4324.104,,,2021-01-29 17:24:44,2021-01-29 17:24:45,"0,923s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:45,2021-01-29 17:24:46,"0,794s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:46,2021-01-29 17:24:47,"0,523s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""), ""Szymon"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:47,2021-01-29 17:24:47,"0,635s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Email (ktry regularnie odbierasz)_fre_eca03e""), ""SS@wp.pl"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:47,2021-01-29 17:24:48,"0,644s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/label""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:48,2021-01-29 17:24:49,"0,594s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/button_Zapisz mnie""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:49,2021-01-29 17:24:49,"0,638s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-29 17:24:49,2021-01-29 17:24:50,"0,720s",PASSED

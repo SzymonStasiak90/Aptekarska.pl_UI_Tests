@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c4cd3d9a-7e47-4c41-86aa-6adaab08fffc</testSuiteGuid>
    <testCaseLink>
-      <guid>2d6d3b24-1534-4f94-9eae-83ada37c87e2</guid>
+      <guid>9a12c307-93e8-4f1a-9129-cf3c562abbe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Formularz/Testy Formularz</testCaseId>

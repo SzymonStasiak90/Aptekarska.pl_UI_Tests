@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Formularz,Firefox 84.0,,,2021-01-29 17:44:33,2021-01-29 17:44:52,"18,909s",PASSED
+,,,,,,,
+Test Cases/Formularz/Testy Formularz,Firefox 84.0,,,2021-01-29 17:44:35,2021-01-29 17:44:52,"17,237s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:44:36,2021-01-29 17:44:42,"6,099s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:44:42,2021-01-29 17:44:45,"3,402s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:44:45,2021-01-29 17:44:46,"0,328s",PASSED
+"click(findTestObject(""Object Repository/Formularz/Page_Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:44:46,2021-01-29 17:44:46,"0,840s",PASSED
+"scrollToElement(findTestObject(""SPY - Newsletter/Page_Aptekarska Szkoa Zarzdzania/iframe__fm-fc-f-jquodjjgyu""), 0)",Firefox 84.0,,,2021-01-29 17:44:46,2021-01-29 17:44:47,"0,695s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Firefox 84.0,,,2021-01-29 17:44:47,2021-01-29 17:44:48,"0,940s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""))",Firefox 84.0,,,2021-01-29 17:44:48,2021-01-29 17:44:49,"0,668s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Imi_freshmail_custom_fieldimie""), ""Szymon"")",Firefox 84.0,,,2021-01-29 17:44:49,2021-01-29 17:44:49,"0,480s",PASSED
+"setText(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/input_Email (ktry regularnie odbierasz)_fre_eca03e""), ""SS@wp.pl"")",Firefox 84.0,,,2021-01-29 17:44:49,2021-01-29 17:44:50,"0,470s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/label""))",Firefox 84.0,,,2021-01-29 17:44:50,2021-01-29 17:44:50,"0,673s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/button_Zapisz mnie""))",Firefox 84.0,,,2021-01-29 17:44:50,2021-01-29 17:44:51,"0,686s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:44:51,2021-01-29 17:44:52,"1,109s",PASSED

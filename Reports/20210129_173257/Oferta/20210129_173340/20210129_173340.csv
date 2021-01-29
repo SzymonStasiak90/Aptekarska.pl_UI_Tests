@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Oferta,Firefox 84.0,,,2021-01-29 17:44:57,2021-01-29 17:47:54,"2m - 57,786s",FAILED
+,,,,,,,
+Test Cases/Oferta/Test Nawigacji - Podstrony Oferta,Firefox 84.0,,,2021-01-29 17:44:58,2021-01-29 17:45:25,"26,441s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:44:59,2021-01-29 17:45:05,"6,174s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:45:05,2021-01-29 17:45:08,"2,875s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:45:08,2021-01-29 17:45:09,"0,731s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/a_Opieka farmaceutyczna""))",Firefox 84.0,,,2021-01-29 17:45:09,2021-01-29 17:45:17,"7,987s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:17,2021-01-29 17:45:17,"0,037s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/course/index.php?categoryid=6"")",Firefox 84.0,,,2021-01-29 17:45:17,2021-01-29 17:45:17,"0,053s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania Wszystkie kursy/a_Zarzdzanie aptek""))",Firefox 84.0,,,2021-01-29 17:45:17,2021-01-29 17:45:18,"1,220s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:18,2021-01-29 17:45:18,"0,031s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/course/index.php?categoryid=5"")",Firefox 84.0,,,2021-01-29 17:45:18,2021-01-29 17:45:18,"0,025s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania Wszystkie kursy/a_Aspekty prawne""))",Firefox 84.0,,,2021-01-29 17:45:18,2021-01-29 17:45:20,"1,459s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:20,2021-01-29 17:45:20,"0,024s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/course/index.php?categoryid=7"")",Firefox 84.0,,,2021-01-29 17:45:20,2021-01-29 17:45:20,"0,027s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania Wszystkie kursy/a_Inne produkty""))",Firefox 84.0,,,2021-01-29 17:45:20,2021-01-29 17:45:21,"1,249s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:21,2021-01-29 17:45:21,"0,026s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/course/index.php?categoryid=10"")",Firefox 84.0,,,2021-01-29 17:45:21,2021-01-29 17:45:21,"0,036s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania Wszystkie kursy/a_Twj koszyk""))",Firefox 84.0,,,2021-01-29 17:45:21,2021-01-29 17:45:22,"1,082s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:22,2021-01-29 17:45:22,"0,032s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/blocks/shoppingcart/shopping_cart.php"")",Firefox 84.0,,,2021-01-29 17:45:22,2021-01-29 17:45:22,"0,036s",PASSED
+"click(findTestObject(""Object Repository/Page_Aptekarska Szkoa Zarzdzania/img_Zaloguj si_site-logo""))",Firefox 84.0,,,2021-01-29 17:45:22,2021-01-29 17:45:23,"1,123s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:45:23,2021-01-29 17:45:24,"0,109s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:45:24,2021-01-29 17:45:24,"0,027s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:45:24,2021-01-29 17:45:25,"1,180s",PASSED
+,,,,,,,
+Test Cases/Oferta/Test Przewijania Strony - Podstrony Oferta,Firefox 84.0,,,2021-01-29 17:45:25,2021-01-29 17:45:37,"12,347s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:45:25,2021-01-29 17:45:30,"5,161s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:45:30,2021-01-29 17:45:33,"2,976s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Firefox 84.0,,,2021-01-29 17:45:33,2021-01-29 17:45:34,"0,638s",PASSED
+"scrollToElement(findTestObject(""SPY-OFERTA/div_Twj koszyk_topcontrol/iframe__fm-fc-f-jquodjjgyu""), 0)",Firefox 84.0,,,2021-01-29 17:45:34,2021-01-29 17:45:35,"1,029s",PASSED
+"click(findTestObject(""SPY-OFERTA/div_Twj koszyk_topcontrol/div_Twj koszyk_topcontrol""))",Firefox 84.0,,,2021-01-29 17:45:35,2021-01-29 17:45:36,"0,826s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:45:36,2021-01-29 17:45:37,"1,246s",PASSED
+,,,,,,,
+Test Cases/Oferta/Test Przyciski - Podstron Oferta,Firefox 84.0,,,2021-01-29 17:45:37,2021-01-29 17:47:54,"2m - 17,219s",FAILED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:45:38,2021-01-29 17:45:42,"4,563s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:45:42,2021-01-29 17:45:42,"0,301s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:45:42,2021-01-29 17:45:45,"2,590s",PASSED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:45:45,2021-01-29 17:45:46,"0,626s",PASSED
+"scrollToElement(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak si zalogowa""), 0)",Firefox 84.0,,,2021-01-29 17:45:46,2021-01-29 17:45:47,"0,909s",PASSED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak si zalogowa_1""), CONTINUE_ON_FAILURE)",Firefox 84.0,,,2021-01-29 17:45:47,2021-01-29 17:45:47,"0,749s",PASSED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak uzyska dostp do kursu""), CONTINUE_ON_FAILURE)",Firefox 84.0,,,2021-01-29 17:45:47,2021-01-29 17:46:19,"31,403s",FAILED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak sprawdzi liczb moich punktw edukacyjnych""), CONTINUE_ON_FAILURE)",Firefox 84.0,,,2021-01-29 17:46:19,2021-01-29 17:46:50,"31,362s",FAILED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak zmieni swj adres w profilu""), CONTINUE_ON_FAILURE)",Firefox 84.0,,,2021-01-29 17:46:50,2021-01-29 17:47:21,"31,362s",FAILED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/div_Jak sprawdzi na jakie kursy jestem zapisany(a)""), CONTINUE_ON_FAILURE)",Firefox 84.0,,,2021-01-29 17:47:21,2021-01-29 17:47:53,"31,257s",FAILED
+"click(findTestObject(""Object Repository/SPY-OFERTA/Page_Aptekarska Szkoa Zarzdzania/a_Weryfikacja certyfikatu""))",Firefox 84.0,,,2021-01-29 17:47:53,2021-01-29 17:47:53,"0,350s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:47:53,2021-01-29 17:47:54,"1,279s",PASSED

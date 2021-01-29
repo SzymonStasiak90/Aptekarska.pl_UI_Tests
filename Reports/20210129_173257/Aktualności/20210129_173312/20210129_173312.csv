@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aktualności,Firefox 84.0,,,2021-01-29 17:35:31,2021-01-29 17:37:57,"2m - 26,463s",FAILED
+,,,,,,,
+Test Cases/Aktualności/Test Nawigacji - Podstrona Aktualności,Firefox 84.0,,,2021-01-29 17:35:32,2021-01-29 17:36:16,"43,703s",FAILED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:35:33,2021-01-29 17:35:40,"6,492s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:35:40,2021-01-29 17:35:40,"0,298s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:35:40,2021-01-29 17:35:46,"5,668s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:35:46,2021-01-29 17:35:49,"3,453s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Firefox 84.0,,,2021-01-29 17:35:49,2021-01-29 17:35:53,"4,368s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:35:53,2021-01-29 17:35:53,"0,030s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:35:53,2021-01-29 17:35:54,"0,060s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Firefox 84.0,,,2021-01-29 17:35:54,2021-01-29 17:36:16,"22,411s",FAILED
+,,,,,,,
+Test Cases/Aktualności/Test Przewijania Strony - Podstrona Aktualności,Firefox 84.0,,,2021-01-29 17:36:16,2021-01-29 17:36:34,"17,633s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:36:16,2021-01-29 17:36:23,"6,253s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:36:23,2021-01-29 17:36:29,"6,478s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Firefox 84.0,,,2021-01-29 17:36:29,2021-01-29 17:36:30,"0,959s",PASSED
+"scrollToElement(findTestObject(""Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/div_Czytaj Wicej_wf-container-footer""), 0)",Firefox 84.0,,,2021-01-29 17:36:30,2021-01-29 17:36:31,"0,705s",PASSED
+"click(findTestObject(""Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Do gry""))",Firefox 84.0,,,2021-01-29 17:36:31,2021-01-29 17:36:32,"1,619s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:36:32,2021-01-29 17:36:34,"1,155s",PASSED
+,,,,,,,
+Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności - Back with link,Firefox 84.0,,,2021-01-29 17:36:34,2021-01-29 17:36:55,"21,332s",FAILED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:36:34,2021-01-29 17:36:39,"5,070s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:36:39,2021-01-29 17:36:39,"0,290s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:36:39,2021-01-29 17:36:44,"4,329s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:36:44,2021-01-29 17:36:45,"1,571s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb""))",Firefox 84.0,,,2021-01-29 17:36:45,2021-01-29 17:36:46,"0,881s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle""))",Firefox 84.0,,,2021-01-29 17:36:46,2021-01-29 17:36:47,"0,652s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle""))",Firefox 84.0,,,2021-01-29 17:36:47,2021-01-29 17:36:48,"0,681s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1""))",Firefox 84.0,,,2021-01-29 17:36:48,2021-01-29 17:36:48,"0,641s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover""))",Firefox 84.0,,,2021-01-29 17:36:48,2021-01-29 17:36:51,"3,052s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:36:51,2021-01-29 17:36:51,"0,101s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"")",Firefox 84.0,,,2021-01-29 17:36:51,2021-01-29 17:36:51,"0,021s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/span_Aktualnoci""))",Firefox 84.0,,,2021-01-29 17:36:51,2021-01-29 17:36:55,"3,545s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:36:55,2021-01-29 17:36:55,"0,026s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:36:55,2021-01-29 17:36:55,"0,033s",FAILED
+,,,,,,,
+Test Cases/Aktualności/Test Przycisków - Podstrona Aktualności Back with browser,Firefox 84.0,,,2021-01-29 17:36:55,2021-01-29 17:37:57,"1m - 2,004s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:36:56,2021-01-29 17:37:02,"6,249s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:37:02,2021-01-29 17:37:03,"0,305s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:03,2021-01-29 17:37:08,"5,301s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:37:08,2021-01-29 17:37:09,"0,876s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb""))",Firefox 84.0,,,2021-01-29 17:37:09,2021-01-29 17:37:10,"0,890s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle""))",Firefox 84.0,,,2021-01-29 17:37:10,2021-01-29 17:37:10,"0,666s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle""))",Firefox 84.0,,,2021-01-29 17:37:10,2021-01-29 17:37:11,"0,696s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1""))",Firefox 84.0,,,2021-01-29 17:37:11,2021-01-29 17:37:12,"0,689s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover""))",Firefox 84.0,,,2021-01-29 17:37:12,2021-01-29 17:37:14,"2,155s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:14,2021-01-29 17:37:14,"0,085s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"")",Firefox 84.0,,,2021-01-29 17:37:14,2021-01-29 17:37:14,"0,034s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:14,2021-01-29 17:37:15,"0,611s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:15,2021-01-29 17:37:15,"0,166s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:15,2021-01-29 17:37:15,"0,044s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. recept""))",Firefox 84.0,,,2021-01-29 17:37:15,2021-01-29 17:37:17,"2,506s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:17,2021-01-29 17:37:17,"0,091s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"")",Firefox 84.0,,,2021-01-29 17:37:17,2021-01-29 17:37:17,"0,031s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:17,2021-01-29 17:37:18,"0,383s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:18,2021-01-29 17:37:18,"0,149s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:18,2021-01-29 17:37:18,"0,054s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej""))",Firefox 84.0,,,2021-01-29 17:37:18,2021-01-29 17:37:21,"3,058s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:21,2021-01-29 17:37:21,"0,072s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/25/webinar-nt-recept/"")",Firefox 84.0,,,2021-01-29 17:37:21,2021-01-29 17:37:21,"0,040s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:21,2021-01-29 17:37:22,"0,475s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:22,2021-01-29 17:37:22,"0,156s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:22,2021-01-29 17:37:22,"0,043s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover""))",Firefox 84.0,,,2021-01-29 17:37:22,2021-01-29 17:37:25,"2,819s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:25,"0,071s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"")",Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:25,"0,033s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:25,"0,287s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:25,"0,100s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:25,"0,021s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Nowy Rok, Nowa Platforma Szkoleniowa, Now_103745""))",Firefox 84.0,,,2021-01-29 17:37:25,2021-01-29 17:37:29,"3,489s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:29,"0,072s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"")",Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:29,"0,022s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:29,"0,294s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:29,"0,143s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:29,"0,037s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1""))",Firefox 84.0,,,2021-01-29 17:37:29,2021-01-29 17:37:32,"2,885s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:32,2021-01-29 17:37:32,"0,090s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/nowa-platforma-szkoleniowa-aptekarska/"")",Firefox 84.0,,,2021-01-29 17:37:32,2021-01-29 17:37:32,"0,026s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:32,2021-01-29 17:37:33,"0,368s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:33,2021-01-29 17:37:33,"0,137s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:33,2021-01-29 17:37:33,"0,065s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1""))",Firefox 84.0,,,2021-01-29 17:37:33,2021-01-29 17:37:36,"3,226s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:36,2021-01-29 17:37:36,"0,069s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"")",Firefox 84.0,,,2021-01-29 17:37:36,2021-01-29 17:37:36,"0,022s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:36,2021-01-29 17:37:36,"0,291s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:36,2021-01-29 17:37:37,"0,148s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:37,2021-01-29 17:37:37,"0,048s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_WEBINAR nt. szczepie""))",Firefox 84.0,,,2021-01-29 17:37:37,2021-01-29 17:37:39,"2,549s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:39,2021-01-29 17:37:39,"0,073s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"")",Firefox 84.0,,,2021-01-29 17:37:39,2021-01-29 17:37:39,"0,030s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:39,2021-01-29 17:37:40,"0,407s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:40,2021-01-29 17:37:40,"0,111s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:40,2021-01-29 17:37:40,"0,025s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2""))",Firefox 84.0,,,2021-01-29 17:37:40,2021-01-29 17:37:43,"2,992s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:43,2021-01-29 17:37:43,"0,072s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/21/aktualnosci-webinar-21012021/"")",Firefox 84.0,,,2021-01-29 17:37:43,2021-01-29 17:37:43,"0,019s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:43,2021-01-29 17:37:43,"0,353s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:43,2021-01-29 17:37:43,"0,173s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:43,2021-01-29 17:37:44,"0,046s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover layz_84d020""))",Firefox 84.0,,,2021-01-29 17:37:44,2021-01-29 17:37:47,"3,957s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:47,2021-01-29 17:37:47,"0,019s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"")",Firefox 84.0,,,2021-01-29 17:37:47,2021-01-29 17:37:48,"0,019s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:48,2021-01-29 17:37:48,"0,414s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:48,2021-01-29 17:37:48,"0,117s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:48,2021-01-29 17:37:48,"0,097s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_yczenia witeczne""))",Firefox 84.0,,,2021-01-29 17:37:48,2021-01-29 17:37:51,"3,067s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:51,2021-01-29 17:37:51,"0,036s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"")",Firefox 84.0,,,2021-01-29 17:37:51,2021-01-29 17:37:51,"0,028s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:51,2021-01-29 17:37:52,"0,466s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:52,2021-01-29 17:37:52,"0,143s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:52,2021-01-29 17:37:52,"0,031s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2_3""))",Firefox 84.0,,,2021-01-29 17:37:52,2021-01-29 17:37:55,"2,910s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:55,2021-01-29 17:37:55,"0,039s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/28/zyczenia-swiateczne/"")",Firefox 84.0,,,2021-01-29 17:37:55,2021-01-29 17:37:55,"0,016s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:37:55,2021-01-29 17:37:55,"0,601s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:37:55,2021-01-29 17:37:56,"0,157s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:37:56,2021-01-29 17:37:56,"0,062s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:37:56,2021-01-29 17:37:57,"1,263s",PASSED

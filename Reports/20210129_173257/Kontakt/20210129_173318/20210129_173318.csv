@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kontakt,Firefox 84.0,,,2021-01-29 17:38:01,2021-01-29 17:38:51,"50,081s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Nawigacji - Podstrony Kontakt,Firefox 84.0,,,2021-01-29 17:38:03,2021-01-29 17:38:38,"35,041s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:38:04,2021-01-29 17:38:11,"7,186s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:38:11,2021-01-29 17:38:11,"0,305s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Firefox 84.0,,,2021-01-29 17:38:11,2021-01-29 17:38:16,"4,910s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:38:16,2021-01-29 17:38:17,"0,809s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Firefox 84.0,,,2021-01-29 17:38:17,2021-01-29 17:38:20,"2,931s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:38:20,2021-01-29 17:38:20,"0,150s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:38:20,2021-01-29 17:38:20,"0,091s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Firefox 84.0,,,2021-01-29 17:38:20,2021-01-29 17:38:24,"3,477s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:38:24,2021-01-29 17:38:24,"0,155s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Firefox 84.0,,,2021-01-29 17:38:24,2021-01-29 17:38:24,"0,048s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Firefox 84.0,,,2021-01-29 17:38:24,2021-01-29 17:38:27,"3,159s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:38:27,2021-01-29 17:38:27,"0,039s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:38:27,2021-01-29 17:38:27,"0,057s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Firefox 84.0,,,2021-01-29 17:38:27,2021-01-29 17:38:31,"3,507s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:38:31,2021-01-29 17:38:31,"0,049s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:38:31,2021-01-29 17:38:31,"0,049s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Firefox 84.0,,,2021-01-29 17:38:31,2021-01-29 17:38:37,"5,915s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:38:37,2021-01-29 17:38:37,"0,017s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:38:37,2021-01-29 17:38:37,"0,020s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:38:37,2021-01-29 17:38:38,"1,350s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przewijania Strony - Podstrony Kontakt,Firefox 84.0,,,2021-01-29 17:38:38,2021-01-29 17:38:51,"13,005s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:38:38,2021-01-29 17:38:43,"5,073s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Firefox 84.0,,,2021-01-29 17:38:43,2021-01-29 17:38:48,"4,162s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Firefox 84.0,,,2021-01-29 17:38:48,2021-01-29 17:38:48,"0,793s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Firefox 84.0,,,2021-01-29 17:38:48,2021-01-29 17:38:49,"0,651s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Firefox 84.0,,,2021-01-29 17:38:49,2021-01-29 17:38:50,"0,671s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:38:50,2021-01-29 17:38:51,"1,149s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przycisków - Podstrona Kontakt,Firefox 84.0,,,2021-01-29 17:38:51,2021-01-29 17:38:51,"0,382s",PASSED
+return null,Firefox 84.0,,,2021-01-29 17:38:51,2021-01-29 17:38:51,"0,000s",PASSED

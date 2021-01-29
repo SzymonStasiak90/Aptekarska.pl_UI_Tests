@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kontakt,Edge Chromium 88,,,2021-01-29 17:54:12,2021-01-29 17:54:44,"32,131s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Nawigacji - Podstrony Kontakt,Edge Chromium 88,,,2021-01-29 17:54:14,2021-01-29 17:54:36,"22,799s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:54:14,2021-01-29 17:54:17,"2,612s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:54:17,2021-01-29 17:54:17,"0,189s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Edge Chromium 88,,,2021-01-29 17:54:17,2021-01-29 17:54:20,"3,225s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:54:20,2021-01-29 17:54:21,"0,626s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Edge Chromium 88,,,2021-01-29 17:54:21,2021-01-29 17:54:24,"3,176s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:54:24,2021-01-29 17:54:24,"0,080s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Edge Chromium 88,,,2021-01-29 17:54:24,2021-01-29 17:54:24,"0,081s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Edge Chromium 88,,,2021-01-29 17:54:24,2021-01-29 17:54:27,"2,410s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:54:27,2021-01-29 17:54:27,"0,051s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Edge Chromium 88,,,2021-01-29 17:54:27,2021-01-29 17:54:27,"0,102s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:54:27,2021-01-29 17:54:31,"3,667s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:54:31,2021-01-29 17:54:31,"0,032s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:54:31,2021-01-29 17:54:31,"0,019s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Edge Chromium 88,,,2021-01-29 17:54:31,2021-01-29 17:54:34,"3,203s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:54:34,2021-01-29 17:54:34,"0,025s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-29 17:54:34,2021-01-29 17:54:34,"0,017s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Edge Chromium 88,,,2021-01-29 17:54:34,2021-01-29 17:54:36,"1,626s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:54:36,2021-01-29 17:54:36,"0,014s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Edge Chromium 88,,,2021-01-29 17:54:36,2021-01-29 17:54:36,"0,017s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 17:54:36,2021-01-29 17:54:36,"0,766s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przewijania Strony - Podstrony Kontakt,Edge Chromium 88,,,2021-01-29 17:54:36,2021-01-29 17:54:44,"7,186s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:54:37,2021-01-29 17:54:38,"1,346s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/kontakt/"")",Edge Chromium 88,,,2021-01-29 17:54:38,2021-01-29 17:54:42,"3,660s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Edge Chromium 88,,,2021-01-29 17:54:42,2021-01-29 17:54:42,"0,593s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Edge Chromium 88,,,2021-01-29 17:54:42,2021-01-29 17:54:43,"0,207s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Edge Chromium 88,,,2021-01-29 17:54:43,2021-01-29 17:54:43,"0,255s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 17:54:43,2021-01-29 17:54:44,"0,692s",PASSED
+,,,,,,,
+Test Cases/Kontakt/Test Przycisków - Podstrona Kontakt,Edge Chromium 88,,,2021-01-29 17:54:44,2021-01-29 17:54:44,"0,408s",PASSED
+return null,Edge Chromium 88,,,2021-01-29 17:54:44,2021-01-29 17:54:44,"0,001s",PASSED

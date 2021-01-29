@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+O nas,Firefox 84.0,,,2021-01-29 17:38:56,2021-01-29 17:42:08,"3m - 12,149s",FAILED
+,,,,,,,
+Test Cases/O nas/Test Nawigacji - Podstrona O nas,Firefox 84.0,,,2021-01-29 17:38:58,2021-01-29 17:39:35,"37,271s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:38:59,2021-01-29 17:39:05,"6,357s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:39:05,2021-01-29 17:39:05,"0,305s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:39:05,2021-01-29 17:39:10,"4,414s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:39:10,2021-01-29 17:39:11,"1,210s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Firefox 84.0,,,2021-01-29 17:39:11,2021-01-29 17:39:14,"2,709s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:39:14,2021-01-29 17:39:14,"0,168s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Firefox 84.0,,,2021-01-29 17:39:14,2021-01-29 17:39:14,"0,082s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Firefox 84.0,,,2021-01-29 17:39:14,2021-01-29 17:39:17,"3,500s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:39:17,2021-01-29 17:39:17,"0,138s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Firefox 84.0,,,2021-01-29 17:39:17,2021-01-29 17:39:17,"0,043s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Firefox 84.0,,,2021-01-29 17:39:17,2021-01-29 17:39:21,"3,785s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:39:21,2021-01-29 17:39:21,"0,027s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:39:21,2021-01-29 17:39:21,"0,021s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt""))",Firefox 84.0,,,2021-01-29 17:39:21,2021-01-29 17:39:28,"6,865s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:39:28,2021-01-29 17:39:28,"0,128s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/kontakt/"")",Firefox 84.0,,,2021-01-29 17:39:28,2021-01-29 17:39:28,"0,080s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Firefox 84.0,,,2021-01-29 17:39:28,2021-01-29 17:39:32,"4,056s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:39:32,2021-01-29 17:39:32,"0,014s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Firefox 84.0,,,2021-01-29 17:39:32,2021-01-29 17:39:32,"0,018s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:39:32,2021-01-29 17:39:35,"2,490s",PASSED
+,,,,,,,
+Test Cases/O nas/Test Przewijania Strony - Podstrona O nas,Firefox 84.0,,,2021-01-29 17:39:35,2021-01-29 17:39:49,"13,655s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:39:35,2021-01-29 17:39:40,"4,606s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:39:40,2021-01-29 17:39:44,"4,219s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Firefox 84.0,,,2021-01-29 17:39:44,2021-01-29 17:39:45,"1,083s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Firefox 84.0,,,2021-01-29 17:39:45,2021-01-29 17:39:46,"0,728s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Firefox 84.0,,,2021-01-29 17:39:46,2021-01-29 17:39:47,"1,409s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:39:47,2021-01-29 17:39:49,"1,177s",PASSED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Beata,Firefox 84.0,,,2021-01-29 17:39:49,2021-01-29 17:40:17,"28,183s",FAILED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:39:49,2021-01-29 17:39:54,"4,548s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:39:54,2021-01-29 17:39:54,"0,271s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:39:54,2021-01-29 17:39:58,"4,388s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:39:58,2021-01-29 17:39:59,"1,028s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i""))",Firefox 84.0,,,2021-01-29 17:39:59,2021-01-29 17:40:02,"2,879s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:02,2021-01-29 17:40:02,"0,027s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Firefox 84.0,,,2021-01-29 17:40:02,2021-01-29 17:40:02,"0,088s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/span_O nas""))",Firefox 84.0,,,2021-01-29 17:40:02,2021-01-29 17:40:06,"4,000s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:06,2021-01-29 17:40:06,"0,024s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:40:06,2021-01-29 17:40:06,"0,026s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej""))",Firefox 84.0,,,2021-01-29 17:40:06,2021-01-29 17:40:11,"4,162s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:11,2021-01-29 17:40:11,"0,026s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Firefox 84.0,,,2021-01-29 17:40:11,2021-01-29 17:40:11,"0,029s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/a_Wszystkie artykuy Beaty Tyszkiewicz-Kmiecik""))",Firefox 84.0,,,2021-01-29 17:40:11,2021-01-29 17:40:17,"6,165s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:17,2021-01-29 17:40:17,"0,019s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/beata-tyszkiewicz-kmiecik/"")",Firefox 84.0,,,2021-01-29 17:40:17,2021-01-29 17:40:17,"0,043s",FAILED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Dominika,Firefox 84.0,,,2021-01-29 17:40:17,2021-01-29 17:40:56,"38,678s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:40:17,2021-01-29 17:40:23,"5,869s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:40:23,2021-01-29 17:40:24,"0,267s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:40:24,2021-01-29 17:40:28,"3,945s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:40:28,2021-01-29 17:40:29,"1,155s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1""))",Firefox 84.0,,,2021-01-29 17:40:29,2021-01-29 17:40:32,"3,379s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:32,2021-01-29 17:40:33,"0,536s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:33,2021-01-29 17:40:33,"0,080s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Firefox 84.0,,,2021-01-29 17:40:33,2021-01-29 17:40:33,"0,022s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/span_O nas""))",Firefox 84.0,,,2021-01-29 17:40:33,2021-01-29 17:40:36,"3,631s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:36,2021-01-29 17:40:36,"0,068s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:36,2021-01-29 17:40:37,"0,121s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:40:37,2021-01-29 17:40:37,"0,081s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1""))",Firefox 84.0,,,2021-01-29 17:40:37,2021-01-29 17:40:39,"2,647s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:39,2021-01-29 17:40:39,"0,037s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:39,2021-01-29 17:40:39,"0,037s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Firefox 84.0,,,2021-01-29 17:40:39,2021-01-29 17:40:40,"0,149s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/a_Wszystkie artykuy Dominiki Nawrockiej-Romanik""))",Firefox 84.0,,,2021-01-29 17:40:40,2021-01-29 17:40:43,"3,148s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:43,2021-01-29 17:40:43,"0,041s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:43,2021-01-29 17:40:43,"0,022s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/dominika-nawrocka-romanik/"")",Firefox 84.0,,,2021-01-29 17:40:43,2021-01-29 17:40:43,"0,187s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:40:43,2021-01-29 17:40:43,"0,550s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:43,2021-01-29 17:40:44,"0,056s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:44,2021-01-29 17:40:44,"0,129s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Firefox 84.0,,,2021-01-29 17:40:44,2021-01-29 17:40:44,"0,041s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/i""))",Firefox 84.0,,,2021-01-29 17:40:44,2021-01-29 17:40:47,"2,900s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,036s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,084s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,029s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,354s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,042s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,078s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:47,"0,030s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/span_O nas""))",Firefox 84.0,,,2021-01-29 17:40:47,2021-01-29 17:40:51,"3,638s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:51,2021-01-29 17:40:51,"0,051s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:51,2021-01-29 17:40:51,"0,126s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:40:51,2021-01-29 17:40:51,"0,066s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-29 17:40:51,2021-01-29 17:40:54,"3,053s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:40:54,2021-01-29 17:40:54,"0,043s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:40:54,2021-01-29 17:40:54,"0,044s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:40:54,2021-01-29 17:40:54,"0,036s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:40:54,2021-01-29 17:40:56,"1,235s",PASSED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Katarzyna,Firefox 84.0,,,2021-01-29 17:40:56,2021-01-29 17:41:25,"29,169s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:40:56,2021-01-29 17:41:01,"4,624s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:41:01,2021-01-29 17:41:01,"0,280s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:41:01,2021-01-29 17:41:05,"4,200s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:41:05,2021-01-29 17:41:06,"1,042s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1_2""))",Firefox 84.0,,,2021-01-29 17:41:06,2021-01-29 17:41:09,"2,775s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:09,2021-01-29 17:41:09,"0,047s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:09,2021-01-29 17:41:09,"0,038s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/katarzyna-grebska/"")",Firefox 84.0,,,2021-01-29 17:41:09,2021-01-29 17:41:09,"0,034s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Katarzyna Grbska - Aptekarska Szkoa Za_6b8522/span_O nas""))",Firefox 84.0,,,2021-01-29 17:41:09,2021-01-29 17:41:13,"3,707s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:13,2021-01-29 17:41:13,"0,023s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:13,2021-01-29 17:41:13,"0,027s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:41:13,2021-01-29 17:41:13,"0,085s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1_2""))",Firefox 84.0,,,2021-01-29 17:41:13,2021-01-29 17:41:16,"3,327s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:16,2021-01-29 17:41:16,"0,035s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:16,2021-01-29 17:41:16,"0,114s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/katarzyna-grebska/"")",Firefox 84.0,,,2021-01-29 17:41:16,2021-01-29 17:41:16,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Katarzyna Grbska - Aptekarska Szkoa Za_6b8522/span_O nas""))",Firefox 84.0,,,2021-01-29 17:41:16,2021-01-29 17:41:20,"3,327s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:20,2021-01-29 17:41:20,"0,030s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:20,2021-01-29 17:41:20,"0,104s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:41:20,2021-01-29 17:41:20,"0,071s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-29 17:41:20,2021-01-29 17:41:23,"3,294s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:23,2021-01-29 17:41:23,"0,038s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:23,2021-01-29 17:41:23,"0,043s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:41:23,2021-01-29 17:41:23,"0,065s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:41:23,2021-01-29 17:41:25,"1,252s",PASSED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Marta,Firefox 84.0,,,2021-01-29 17:41:25,2021-01-29 17:42:08,"43,426s",PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-01-29 17:41:25,2021-01-29 17:41:30,"4,998s",PASSED
+maximizeWindow(),Firefox 84.0,,,2021-01-29 17:41:30,2021-01-29 17:41:30,"0,265s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:41:30,2021-01-29 17:41:35,"4,603s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Firefox 84.0,,,2021-01-29 17:41:35,2021-01-29 17:41:36,"0,997s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1_2_3""))",Firefox 84.0,,,2021-01-29 17:41:36,2021-01-29 17:41:40,"3,444s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:40,2021-01-29 17:41:40,"0,024s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:40,2021-01-29 17:41:40,"0,033s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:40,2021-01-29 17:41:40,"0,120s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_O nas""))",Firefox 84.0,,,2021-01-29 17:41:40,2021-01-29 17:41:43,"3,328s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:43,2021-01-29 17:41:43,"0,027s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:43,2021-01-29 17:41:43,"0,076s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Firefox 84.0,,,2021-01-29 17:41:43,2021-01-29 17:41:43,"0,064s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1_2_3""))",Firefox 84.0,,,2021-01-29 17:41:43,2021-01-29 17:41:46,"3,208s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:46,2021-01-29 17:41:46,"0,044s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:46,2021-01-29 17:41:47,"0,094s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:47,2021-01-29 17:41:47,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/a_Wszystkie artykuy Marty Baaziskiej""))",Firefox 84.0,,,2021-01-29 17:41:47,2021-01-29 17:41:50,"3,678s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:50,2021-01-29 17:41:50,"0,031s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:50,2021-01-29 17:41:50,"0,030s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:50,2021-01-29 17:41:51,"0,222s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:41:51,2021-01-29 17:41:51,"0,560s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:51,2021-01-29 17:41:51,"0,031s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:51,2021-01-29 17:41:51,"0,120s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:51,2021-01-29 17:41:51,"0,028s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Firefox 84.0,,,2021-01-29 17:41:51,2021-01-29 17:41:54,"3,171s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:54,2021-01-29 17:41:54,"0,034s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:54,2021-01-29 17:41:55,"0,105s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:55,"0,016s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:55,"0,619s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:55,"0,031s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:55,"0,110s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:55,"0,020s",PASSED
+"click(findTestObject(""Object Repository/TEMP/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Firefox 84.0,,,2021-01-29 17:41:55,2021-01-29 17:41:59,"3,194s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,110s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,068s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/10/26/jak-zoptymalizowac-koszty-w-aptece/"")",Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,043s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,559s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,044s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,025s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:41:59,"0,089s",PASSED
+"click(findTestObject(""Object Repository/TEMP/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Firefox 84.0,,,2021-01-29 17:41:59,2021-01-29 17:42:02,"2,845s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:42:02,2021-01-29 17:42:02,"0,075s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:42:02,2021-01-29 17:42:02,"0,021s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/10/26/jak-zoptymalizowac-koszty-w-aptece/"")",Firefox 84.0,,,2021-01-29 17:42:02,2021-01-29 17:42:03,"0,052s",PASSED
+back(),Firefox 84.0,,,2021-01-29 17:42:03,2021-01-29 17:42:03,"0,580s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:42:03,2021-01-29 17:42:03,"0,049s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:42:03,2021-01-29 17:42:03,"0,074s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Firefox 84.0,,,2021-01-29 17:42:03,2021-01-29 17:42:03,"0,034s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Firefox 84.0,,,2021-01-29 17:42:03,2021-01-29 17:42:07,"3,509s",PASSED
+waitForPageLoad(3),Firefox 84.0,,,2021-01-29 17:42:07,2021-01-29 17:42:07,"0,041s",PASSED
+getUrl(),Firefox 84.0,,,2021-01-29 17:42:07,2021-01-29 17:42:07,"0,021s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Firefox 84.0,,,2021-01-29 17:42:07,2021-01-29 17:42:07,"0,167s",PASSED
+closeBrowser(),Firefox 84.0,,,2021-01-29 17:42:07,2021-01-29 17:42:08,"1,173s",PASSED

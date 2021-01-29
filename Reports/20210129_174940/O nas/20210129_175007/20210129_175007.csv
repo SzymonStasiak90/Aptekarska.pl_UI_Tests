@@ -1,0 +1,173 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+O nas,Edge Chromium 88,,,2021-01-29 17:54:48,2021-01-29 17:57:06,"2m - 17,525s",FAILED
+,,,,,,,
+Test Cases/O nas/Test Nawigacji - Podstrona O nas,Edge Chromium 88,,,2021-01-29 17:54:50,2021-01-29 17:55:17,"26,634s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:54:51,2021-01-29 17:54:54,"2,849s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:54:54,2021-01-29 17:54:54,"0,171s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:54:54,2021-01-29 17:54:57,"3,504s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:54:57,2021-01-29 17:54:58,"0,417s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Edge Chromium 88,,,2021-01-29 17:54:58,2021-01-29 17:55:01,"2,770s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:01,2021-01-29 17:55:01,"0,079s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Edge Chromium 88,,,2021-01-29 17:55:01,2021-01-29 17:55:01,"0,089s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Artykuy""))",Edge Chromium 88,,,2021-01-29 17:55:01,2021-01-29 17:55:04,"3,068s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:04,2021-01-29 17:55:04,"0,054s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Edge Chromium 88,,,2021-01-29 17:55:04,2021-01-29 17:55:04,"0,080s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Edge Chromium 88,,,2021-01-29 17:55:04,2021-01-29 17:55:08,"3,590s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:08,2021-01-29 17:55:08,"0,035s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-29 17:55:08,2021-01-29 17:55:08,"0,022s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt""))",Edge Chromium 88,,,2021-01-29 17:55:08,2021-01-29 17:55:11,"3,343s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:11,2021-01-29 17:55:11,"0,024s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/kontakt/"")",Edge Chromium 88,,,2021-01-29 17:55:11,2021-01-29 17:55:11,"0,026s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Edge Chromium 88,,,2021-01-29 17:55:11,2021-01-29 17:55:16,"4,884s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:16,2021-01-29 17:55:16,"0,018s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Edge Chromium 88,,,2021-01-29 17:55:16,2021-01-29 17:55:16,"0,021s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 17:55:16,2021-01-29 17:55:17,"0,797s",PASSED
+,,,,,,,
+Test Cases/O nas/Test Przewijania Strony - Podstrona O nas,Edge Chromium 88,,,2021-01-29 17:55:17,2021-01-29 17:55:24,"7,240s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:55:17,2021-01-29 17:55:19,"1,493s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:55:19,2021-01-29 17:55:23,"4,008s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Edge Chromium 88,,,2021-01-29 17:55:23,2021-01-29 17:55:23,"0,237s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia dla Farmacji/img_Uczestniczka webinaru_preload-me""), 0)",Edge Chromium 88,,,2021-01-29 17:55:23,2021-01-29 17:55:23,"0,217s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/a_Do gry""))",Edge Chromium 88,,,2021-01-29 17:55:23,2021-01-29 17:55:23,"0,197s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 17:55:23,2021-01-29 17:55:24,"0,661s",PASSED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Beata,Edge Chromium 88,,,2021-01-29 17:55:24,2021-01-29 17:55:47,"22,705s",FAILED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:55:24,2021-01-29 17:55:26,"1,320s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:55:26,2021-01-29 17:55:26,"0,155s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:55:26,2021-01-29 17:55:30,"3,879s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:55:30,2021-01-29 17:55:30,"0,320s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i""))",Edge Chromium 88,,,2021-01-29 17:55:30,2021-01-29 17:55:33,"2,601s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:33,2021-01-29 17:55:33,"0,013s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Edge Chromium 88,,,2021-01-29 17:55:33,2021-01-29 17:55:33,"0,016s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:55:33,2021-01-29 17:55:36,"3,094s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:36,2021-01-29 17:55:36,"0,166s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:55:36,2021-01-29 17:55:36,"0,015s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej""))",Edge Chromium 88,,,2021-01-29 17:55:36,2021-01-29 17:55:38,"2,489s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:38,2021-01-29 17:55:39,"0,156s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Edge Chromium 88,,,2021-01-29 17:55:39,2021-01-29 17:55:39,"0,062s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/a_Wszystkie artykuy Beaty Tyszkiewicz-Kmiecik""))",Edge Chromium 88,,,2021-01-29 17:55:39,2021-01-29 17:55:41,"2,585s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:41,2021-01-29 17:55:41,"0,135s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/beata-tyszkiewicz-kmiecik/"")",Edge Chromium 88,,,2021-01-29 17:55:41,2021-01-29 17:55:41,"0,021s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:55:41,2021-01-29 17:55:42,"0,310s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:42,2021-01-29 17:55:42,"0,119s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Edge Chromium 88,,,2021-01-29 17:55:42,2021-01-29 17:55:42,"0,053s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/i""))",Edge Chromium 88,,,2021-01-29 17:55:42,2021-01-29 17:55:44,"2,364s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:44,2021-01-29 17:55:44,"0,031s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Edge Chromium 88,,,2021-01-29 17:55:44,2021-01-29 17:55:44,"0,044s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:55:44,2021-01-29 17:55:45,"0,438s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:45,2021-01-29 17:55:45,"0,019s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/beata-tyszkiewicz-kmiecik/"")",Edge Chromium 88,,,2021-01-29 17:55:45,2021-01-29 17:55:45,"0,039s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Beata Tyszkiewicz-Kmiecik - Aptekarska_133aa7/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:55:45,2021-01-29 17:55:47,"1,800s",FAILED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Dominika,Edge Chromium 88,,,2021-01-29 17:55:47,2021-01-29 17:56:10,"23,423s",FAILED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:55:47,2021-01-29 17:55:50,"2,394s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:55:50,2021-01-29 17:55:50,"0,132s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:55:50,2021-01-29 17:55:54,"3,893s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:55:54,2021-01-29 17:55:54,"0,257s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1""))",Edge Chromium 88,,,2021-01-29 17:55:54,2021-01-29 17:55:56,"2,354s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:55:56,2021-01-29 17:55:57,"0,391s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:57,2021-01-29 17:55:57,"0,020s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Edge Chromium 88,,,2021-01-29 17:55:57,2021-01-29 17:55:57,"0,017s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:55:57,2021-01-29 17:55:59,"2,233s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:55:59,2021-01-29 17:55:59,"0,156s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:55:59,2021-01-29 17:55:59,"0,051s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:55:59,2021-01-29 17:55:59,"0,026s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1""))",Edge Chromium 88,,,2021-01-29 17:55:59,2021-01-29 17:56:02,"3,110s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:02,2021-01-29 17:56:02,"0,040s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:02,2021-01-29 17:56:02,"0,033s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Edge Chromium 88,,,2021-01-29 17:56:02,2021-01-29 17:56:02,"0,027s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/a_Wszystkie artykuy Dominiki Nawrockiej-Romanik""))",Edge Chromium 88,,,2021-01-29 17:56:02,2021-01-29 17:56:04,"2,138s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:04,2021-01-29 17:56:05,"0,259s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,119s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/dominika-nawrocka-romanik/"")",Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,020s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,470s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,045s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,048s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:05,"0,015s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/i""))",Edge Chromium 88,,,2021-01-29 17:56:05,2021-01-29 17:56:08,"2,398s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,036s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,043s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,012s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,218s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,132s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,049s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/dominika-nawrocka-romanik/"")",Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:08,"0,017s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Dominika Nawrocka-Romanik - Aptekarska_aaad20/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:56:08,2021-01-29 17:56:10,"1,781s",FAILED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Katarzyna,Edge Chromium 88,,,2021-01-29 17:56:10,2021-01-29 17:56:35,"25,220s",PASSED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:56:11,2021-01-29 17:56:13,"2,220s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:56:13,2021-01-29 17:56:13,"0,153s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:56:13,2021-01-29 17:56:20,"6,636s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:56:20,2021-01-29 17:56:20,"0,395s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1_2""))",Edge Chromium 88,,,2021-01-29 17:56:20,2021-01-29 17:56:23,"2,399s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:23,2021-01-29 17:56:23,"0,022s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:23,2021-01-29 17:56:23,"0,013s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/katarzyna-grebska/"")",Edge Chromium 88,,,2021-01-29 17:56:23,2021-01-29 17:56:23,"0,014s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Katarzyna Grbska - Aptekarska Szkoa Za_6b8522/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:56:23,2021-01-29 17:56:25,"2,848s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:25,2021-01-29 17:56:26,"0,230s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:26,2021-01-29 17:56:26,"0,062s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:56:26,2021-01-29 17:56:26,"0,031s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1_2""))",Edge Chromium 88,,,2021-01-29 17:56:26,2021-01-29 17:56:28,"2,470s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:28,2021-01-29 17:56:28,"0,024s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:28,2021-01-29 17:56:28,"0,017s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/katarzyna-grebska/"")",Edge Chromium 88,,,2021-01-29 17:56:28,2021-01-29 17:56:28,"0,033s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Katarzyna Grbska - Aptekarska Szkoa Za_6b8522/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:56:28,2021-01-29 17:56:31,"2,743s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:31,2021-01-29 17:56:31,"0,129s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:31,2021-01-29 17:56:31,"0,138s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:56:31,2021-01-29 17:56:31,"0,020s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Edge Chromium 88,,,2021-01-29 17:56:31,2021-01-29 17:56:34,"3,115s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:34,2021-01-29 17:56:34,"0,017s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:34,2021-01-29 17:56:34,"0,016s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Edge Chromium 88,,,2021-01-29 17:56:34,2021-01-29 17:56:34,"0,017s",PASSED
+closeBrowser(),Edge Chromium 88,,,2021-01-29 17:56:34,2021-01-29 17:56:35,"0,869s",PASSED
+,,,,,,,
+Test Cases/O nas/Test przycisków - Podstrona O nas - Marta,Edge Chromium 88,,,2021-01-29 17:56:35,2021-01-29 17:57:06,"30,471s",FAILED
+"openBrowser("""")",Edge Chromium 88,,,2021-01-29 17:56:36,2021-01-29 17:56:37,"1,375s",PASSED
+maximizeWindow(),Edge Chromium 88,,,2021-01-29 17:56:37,2021-01-29 17:56:37,"0,151s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:56:37,2021-01-29 17:56:42,"4,268s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/button_Nie zgadzam si""))",Edge Chromium 88,,,2021-01-29 17:56:42,2021-01-29 17:56:42,"0,236s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/i_1_2_3""))",Edge Chromium 88,,,2021-01-29 17:56:42,2021-01-29 17:56:45,"2,829s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:45,2021-01-29 17:56:45,"0,019s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:45,2021-01-29 17:56:45,"0,012s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:56:45,2021-01-29 17:56:45,"0,011s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_O nas""))",Edge Chromium 88,,,2021-01-29 17:56:45,2021-01-29 17:56:48,"3,072s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:48,2021-01-29 17:56:48,"0,054s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:48,2021-01-29 17:56:48,"0,017s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Edge Chromium 88,,,2021-01-29 17:56:48,2021-01-29 17:56:48,"0,078s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_O nas - Aptekarska Szkoa Zarzdzania/a_Wicej_1_2_3""))",Edge Chromium 88,,,2021-01-29 17:56:48,2021-01-29 17:56:50,"2,430s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:50,2021-01-29 17:56:50,"0,017s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:50,2021-01-29 17:56:50,"0,015s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:56:50,2021-01-29 17:56:50,"0,017s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/a_Wszystkie artykuy Marty Baaziskiej""))",Edge Chromium 88,,,2021-01-29 17:56:50,2021-01-29 17:56:53,"2,900s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:53,2021-01-29 17:56:53,"0,160s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:53,2021-01-29 17:56:53,"0,024s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/category/artykuly/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:56:53,2021-01-29 17:56:54,"0,019s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:56:54,2021-01-29 17:56:54,"0,349s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:54,2021-01-29 17:56:54,"0,109s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:54,2021-01-29 17:56:54,"0,041s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:56:54,2021-01-29 17:56:54,"0,016s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Edge Chromium 88,,,2021-01-29 17:56:54,2021-01-29 17:56:57,"2,553s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,092s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,036s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,025s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,338s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,207s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,062s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:56:57,"0,036s",PASSED
+"click(findTestObject(""Object Repository/TEMP/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Edge Chromium 88,,,2021-01-29 17:56:57,2021-01-29 17:57:00,"2,710s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:57:00,2021-01-29 17:57:00,"0,026s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:57:00,2021-01-29 17:57:00,"0,015s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/10/26/jak-zoptymalizowac-koszty-w-aptece/"")",Edge Chromium 88,,,2021-01-29 17:57:00,2021-01-29 17:57:00,"0,020s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:57:00,2021-01-29 17:57:01,"0,577s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:57:01,2021-01-29 17:57:01,"0,049s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:57:01,2021-01-29 17:57:01,"0,020s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:57:01,2021-01-29 17:57:01,"0,061s",PASSED
+"click(findTestObject(""Object Repository/TEMP/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/i""))",Edge Chromium 88,,,2021-01-29 17:57:01,2021-01-29 17:57:03,"2,479s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:57:03,2021-01-29 17:57:03,"0,050s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:57:03,2021-01-29 17:57:03,"0,061s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/10/26/jak-zoptymalizowac-koszty-w-aptece/"")",Edge Chromium 88,,,2021-01-29 17:57:03,2021-01-29 17:57:03,"0,021s",PASSED
+back(),Edge Chromium 88,,,2021-01-29 17:57:03,2021-01-29 17:57:04,"0,310s",PASSED
+waitForPageLoad(3),Edge Chromium 88,,,2021-01-29 17:57:04,2021-01-29 17:57:04,"0,131s",PASSED
+getUrl(),Edge Chromium 88,,,2021-01-29 17:57:04,2021-01-29 17:57:04,"0,042s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/marta-balazinska/"")",Edge Chromium 88,,,2021-01-29 17:57:04,2021-01-29 17:57:04,"0,023s",PASSED
+"click(findTestObject(""Object Repository/Podstrona O nas Przyciski/Page_Marta Baaziska - Aptekarska Szkoa Zarzdzania/span_Strona gwna""))",Edge Chromium 88,,,2021-01-29 17:57:04,2021-01-29 17:57:06,"1,838s",FAILED

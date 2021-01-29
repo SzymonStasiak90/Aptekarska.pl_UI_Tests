@@ -1,0 +1,131 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Artykuły,Chrome 88.0.4324.104,,,2021-01-29 17:22:26,2021-01-29 17:24:27,"2m - 1,221s",FAILED
+,,,,,,,
+Test Cases/Artykuły/Test Nawigacji - Podstrona Artykuły,Chrome 88.0.4324.104,,,2021-01-29 17:22:28,2021-01-29 17:23:01,"32,830s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-29 17:22:29,2021-01-29 17:22:34,"5,059s",PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-29 17:22:34,2021-01-29 17:22:36,"2,200s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:22:36,2021-01-29 17:22:39,"3,475s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Nie zgadzam si""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:39,2021-01-29 17:22:40,"0,708s",PASSED
+"click(findTestObject(""SPY - NAWIGACJA STRONA GŁOWNA BUTTON/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/img_Szkolenia cige dla farmaceutw, farmacji, farmaceutyczne  Aptekarska.pl_preload-me""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:40,2021-01-29 17:22:44,"3,945s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:22:44,2021-01-29 17:22:44,"0,050s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/"")",Chrome 88.0.4324.104,,,2021-01-29 17:22:44,2021-01-29 17:22:44,"0,078s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Aktualnoci""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:44,2021-01-29 17:22:52,"7,324s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:22:52,2021-01-29 17:22:52,"0,015s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/aktualnosci/"")",Chrome 88.0.4324.104,,,2021-01-29 17:22:52,2021-01-29 17:22:52,"0,066s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Artykuy - Aptekarska Szkoa Zarzdzania/span_O nas""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:52,2021-01-29 17:22:55,"3,088s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:22:55,2021-01-29 17:22:55,"0,057s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/o-nas/"")",Chrome 88.0.4324.104,,,2021-01-29 17:22:55,2021-01-29 17:22:55,"0,070s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_O nas - Aptekarska Szkoa Zarzdzania/span_Kontakt""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:55,2021-01-29 17:22:58,"3,072s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:22:58,2021-01-29 17:22:58,"0,031s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/kontakt/"")",Chrome 88.0.4324.104,,,2021-01-29 17:22:58,2021-01-29 17:22:58,"0,043s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Nawigacja/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/span_Oferta""))",Chrome 88.0.4324.104,,,2021-01-29 17:22:58,2021-01-29 17:23:00,"2,027s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:00,2021-01-29 17:23:00,"0,012s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/oferta/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:00,2021-01-29 17:23:00,"0,014s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-29 17:23:00,2021-01-29 17:23:01,"0,724s",PASSED
+,,,,,,,
+Test Cases/Artykuły/Test Przewijania Strony - Podstrona Artykuły,Chrome 88.0.4324.104,,,2021-01-29 17:23:01,2021-01-29 17:23:11,"10,688s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-29 17:23:01,2021-01-29 17:23:05,"3,365s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:05,2021-01-29 17:23:08,"3,539s",PASSED
+"click(findTestObject(""Object Repository/Strona Główna Przewijanie/Page_Aptekarska Szkoa Zarzdzania Szkolenia _8ea30e/button_Akceptuj wszystko""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:08,2021-01-29 17:23:09,"0,493s",PASSED
+"scrollToElement(findTestObject(""Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/div_Czytaj Wicej_wf-container-footer""), 0)",Chrome 88.0.4324.104,,,2021-01-29 17:23:09,2021-01-29 17:23:10,"0,954s",PASSED
+"click(findTestObject(""Spy - Podstrona Aktualności/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/a_Do gry""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:10,2021-01-29 17:23:10,"0,550s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-29 17:23:10,2021-01-29 17:23:11,"1,331s",PASSED
+,,,,,,,
+Test Cases/Artykuły/Test Przycisków - Back with browser/Test Przycisków - Podstrona Artykuły Back with browser,Chrome 88.0.4324.104,,,2021-01-29 17:23:12,2021-01-29 17:24:08,"56,365s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-29 17:23:12,2021-01-29 17:23:15,"3,358s",PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-29 17:23:15,2021-01-29 17:23:18,"2,141s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:18,2021-01-29 17:23:21,"3,541s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:21,2021-01-29 17:23:22,"0,641s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:22,2021-01-29 17:23:23,"0,917s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:23,2021-01-29 17:23:23,"0,519s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:23,2021-01-29 17:23:24,"0,549s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:24,2021-01-29 17:23:24,"0,546s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:24,2021-01-29 17:23:27,"2,899s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:27,2021-01-29 17:23:27,"0,064s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:27,2021-01-29 17:23:27,"0,057s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:27,2021-01-29 17:23:28,"0,512s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:28,2021-01-29 17:23:28,"0,070s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:28,2021-01-29 17:23:28,"0,067s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Jak odzyska kontrol nad swoim czasem w 6 krokach""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:28,2021-01-29 17:23:31,"3,422s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:31,2021-01-29 17:23:31,"0,020s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:31,2021-01-29 17:23:31,"0,016s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:31,2021-01-29 17:23:32,"0,435s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:32,2021-01-29 17:23:32,"0,042s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:32,2021-01-29 17:23:32,"0,085s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:32,2021-01-29 17:23:34,"2,552s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:34,2021-01-29 17:23:34,"0,016s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:34,2021-01-29 17:23:34,"0,013s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:34,2021-01-29 17:23:35,"0,488s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:35,2021-01-29 17:23:35,"0,034s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:35,2021-01-29 17:23:35,"0,076s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:35,2021-01-29 17:23:39,"4,002s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:39,2021-01-29 17:23:39,"0,072s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:39,2021-01-29 17:23:39,"0,023s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:39,2021-01-29 17:23:39,"0,306s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:39,2021-01-29 17:23:40,"0,189s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:40,2021-01-29 17:23:40,"0,106s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Jak zwikszy przychody w aptece""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:40,2021-01-29 17:23:42,"2,495s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:42,2021-01-29 17:23:42,"0,032s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:42,2021-01-29 17:23:42,"0,043s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:42,2021-01-29 17:23:43,"0,325s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:43,2021-01-29 17:23:43,"0,194s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:43,2021-01-29 17:23:43,"0,044s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:43,2021-01-29 17:23:47,"3,631s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:47,"0,050s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/10/jak-zwiekszyc-przychody-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:47,"0,058s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:47,"0,325s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:47,"0,297s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:47,"0,071s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:47,2021-01-29 17:23:50,"2,650s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:50,2021-01-29 17:23:50,"0,015s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:50,2021-01-29 17:23:50,"0,013s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:50,2021-01-29 17:23:50,"0,451s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:50,2021-01-29 17:23:51,"0,057s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:51,2021-01-29 17:23:51,"0,068s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Maa zmiana, ktra daje due efekty w poleps_62a5d1""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:51,2021-01-29 17:23:53,"2,598s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:53,2021-01-29 17:23:53,"0,085s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:53,2021-01-29 17:23:53,"0,048s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:53,2021-01-29 17:23:54,"0,331s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:54,2021-01-29 17:23:54,"0,045s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:54,2021-01-29 17:23:54,"0,066s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:54,2021-01-29 17:23:57,"3,667s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:57,2021-01-29 17:23:57,"0,012s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/04/mala-zmiana-ktora-daje-duze-efekty-w-polepszeniu-jakosci-obslugi-pacjenta-w-aptece/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:57,2021-01-29 17:23:57,"0,012s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:23:57,2021-01-29 17:23:58,"0,319s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:23:58,2021-01-29 17:23:58,"0,103s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:23:58,2021-01-29 17:23:58,"0,095s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_post-thumbnail-rollover_1_2""))",Chrome 88.0.4324.104,,,2021-01-29 17:23:58,2021-01-29 17:24:00,"2,326s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:00,2021-01-29 17:24:00,"0,031s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/03/plukanki-zawierajace-oktenidyne-i-fenoksyetanol-istotnie-zmniejszaja-poziom-wirusa-sars-cov-2-na-blonach-sluzowych/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:00,2021-01-29 17:24:00,"0,019s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:24:00,2021-01-29 17:24:01,"0,455s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:01,2021-01-29 17:24:01,"0,042s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:01,2021-01-29 17:24:01,"0,055s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Pukanki zawierajce oktenidyn i fenoksyeta_44fe9f""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:01,2021-01-29 17:24:04,"2,633s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:04,"0,040s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/03/plukanki-zawierajace-oktenidyne-i-fenoksyetanol-istotnie-zmniejszaja-poziom-wirusa-sars-cov-2-na-blonach-sluzowych/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:04,"0,014s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:04,"0,364s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:04,"0,037s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:04,"0,054s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Czytaj Wicej_1_2_3""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:04,2021-01-29 17:24:07,"2,462s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:07,"0,034s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2020/12/03/plukanki-zawierajace-oktenidyne-i-fenoksyetanol-istotnie-zmniejszaja-poziom-wirusa-sars-cov-2-na-blonach-sluzowych/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:07,"0,034s",PASSED
+back(),Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:07,"0,474s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:07,"0,047s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:07,"0,070s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-29 17:24:07,2021-01-29 17:24:08,"0,687s",PASSED
+,,,,,,,
+Test Cases/Artykuły/Test Przycisków - Back with Link/Test Przycisków - Podstrona Artykuły- Back with link,Chrome 88.0.4324.104,,,2021-01-29 17:24:08,2021-01-29 17:24:27,"19,271s",FAILED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-29 17:24:08,2021-01-29 17:24:12,"3,309s",PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-29 17:24:12,2021-01-29 17:24:14,"2,128s",PASSED
+"navigateToUrl(""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:14,2021-01-29 17:24:17,"3,609s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_WEBINAR nt. recept - Aptekarska Szkoa _d7070e/button_Nie zgadzam si""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:17,2021-01-29 17:24:18,"0,686s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch left-act_ca62bb""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:18,2021-01-29 17:24:19,"0,981s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Sortuj po dacie_filter-switch-toggle""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:19,2021-01-29 17:24:20,"0,666s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:20,2021-01-29 17:24:20,"0,534s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Aktualności Przyciski/Page_Aktualnoci - Aptekarska Szkoa Zarzdzania/span_Malejco_filter-switch-toggle_1""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:20,2021-01-29 17:24:21,"0,517s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Artykuy - Aptekarska Szkoa Zarzdzania/a_Rosnco_post-thumbnail-rollover""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:21,2021-01-29 17:24:23,"2,655s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:23,2021-01-29 17:24:24,"0,079s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/2021/01/24/jak-odzyskac-kontrole-nad-swoim-czasem-w-6-krokach/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:24,2021-01-29 17:24:24,"0,102s",PASSED
+"click(findTestObject(""Object Repository/Podstrona Artykuły/Page_Jak odzyska kontrol nad swoim czasem w_66149d/span_Artykuy""))",Chrome 88.0.4324.104,,,2021-01-29 17:24:24,2021-01-29 17:24:27,"3,150s",PASSED
+getUrl(),Chrome 88.0.4324.104,,,2021-01-29 17:24:27,2021-01-29 17:24:27,"0,275s",PASSED
+"verifyEqual(getUrl(), ""https://www.aptekarska.pl/artykuly/"")",Chrome 88.0.4324.104,,,2021-01-29 17:24:27,2021-01-29 17:24:27,"0,091s",FAILED
